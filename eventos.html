@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8"/> 
+  <link rel="icon" href="_imagens/favicon.ico" type="image/icon" />
+	<meta name="viewport" content="width=device-width">
+	<title> HOME - IFSP - Pirituba - DWBA4 </title>
+	<link href="_css/menu.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header id="cabecalho"> 
+  <nav>
+    <object width="100%" height="200px" data="menu.html"></object>    
+  </nav>    
+  
+</header>  
+
+
+<form method="POST" id="fEventos" action="mailto:beatriz.spaixaoo@gmail.com">   
+  <h1>Inscreva-se</h1>
+  <fieldset> 
+    <label> Evento: </label> <select name="tEvent" id="cEvent" required class="generalborder">
+      <option value="select" selected > --Selecione --</option>
+      <option value="voe"> Voe sem asa</option>
+      <option value="junina"> Festa Junina</option>
+      <option value="tecnologia"> Semana da Tecnologia</option>
+      </select>
+  </fieldset>
+  
+<fieldset id="acesso">
+    <legend>Informações de Acesso </legend>
+    <p><label for="cUser"> Usuário: </label><input type="text" name="tUser" id="cUser" size="20" maxlength="30" placeholder="seu usuario aqui" required name="cUser" class="generalborder"/> </p> 
+    <p> <label for="cSenha"> Senha: </label><input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 digitos" required name="cSenha" class="generalborder"/></p>
+    <p> <label for="cSenha"> Confirme a Senha: </label><input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 digitos" required name="cSenha" class="generalborder"/></p>
+ </fieldset>
+	
+ <fieldset id="usuario">
+    <legend> Informações Pessoais</legend>
+    <p><label for="cNome"> Nome Completo: </label><input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="seu nome completo" required name="cNome" class="generalborder"/> </p> 
+    <p> <label for="cMail"> E-mail: </label> <input type="email" name="tMail" id="cMail" size="20" maxlength="40"placeholder="seu e-mail" required name="cMail" class="generalborder"/></p>
+    <p><label for="cCel"> Celular: </label> <input type="tel" name="tCel" id="cCel" size="20" maxlength="40" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" size="20" maxlength="20" placeholder="(99) 99999-9999" required name="cCel" class="generalborder"/></p>
+    	<fieldset id="sexo" aria-required class="generalborder"> <legend>Sexo</legend>
+    		<input type="radio" name="tSexo" id="cMasc"/> <label for="cMasc"> Masculino </label>
+    		<input type="radio" name="tSexo" id="cFem" checked/> <label for="cFem"> Feminino </label>
+   	</fieldset> 
+    <p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc" required name="cNasc" /></p>
+    <p><label id="cCor">Cor Favorita: </label><br>
+    <input type="color" name="tCor" id="cCor" value="#0000FF" required name="cCor" class="border"/></p>
+    <p><label for="cGit"> Perfil do GitHub: </label><input type="text" name="tGit" id="cGit" size="20" maxlength="30" placeholder="link do perfil GitHub" required name="cGit" class="generalborder"/> </p>
+  </fieldset>
+	
+    <button type="submit"> Inscrever </button> <button type="reset"> Limpar </button>
+
+</form>
+
+
+<footer>
+<br><br> 
+<object width="100%" height="200px" data="rodape.html"></object>
+
+</footer>
+</div>
+</body>
+</html>
