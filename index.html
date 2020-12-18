@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8"> <!-- configura a codificação de caracteres do navegador para o UTF-8-->
+  <link rel="shortcut icon" href="_imagens/favicon.ico" type="image/x-icon"> <!-- Adiciona o ícone de aba de navegador-->
+  <link rel="stylesheet" href="_css/conteudo.css">
+  <link rel="stylesheet" href="_css/menulateral.css">   
+  <title>HOME - IFSP - Pirituba</title> <!-- Adiciona o título na aba do navegador-->
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
+
+</head>
+
+<body>
+
+<header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->
+  
+  <nav>
+    <object width="100%" height="200px" data="menu.html"></object>    
+  </nav>    
+  
+</header>
+
+<main id="conteudo"> <!-- indica que é o conteúdo principal dessa página -->
+
+<nav>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="biblioteca.html">Biblioteca</a>
+    <a href="localizacao.html">Localização</a>    
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+</nav>
+
+
+  <aside> <!-- indica que é um conteúdo a parte do princial, auxiliar-->
+    <h1>Acontece no IFSP!</h1> 	
+	<figure>
+      <img src="Imagens/SEJA_RARO.jpg" alt="Palestra Seja Raro" width="50%" height="50%">
+      <figcaption>Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</figcaption>
+    </figure>	
+  </aside>  
+  
+  <section>
+	<h1>
+	  Conheça os desafios de inovação
+	</h1>
+	<div class="videoWrapper">
+	  <p align="center">
+	    <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </p>
+	</div>			
+  </section>
+
+</main>
+
+<footer>
+<br><br> 
+<object width="100%" height="200px" data="rodape.html"></object>
+
+</footer>
+
+
+</body>
+</html>
