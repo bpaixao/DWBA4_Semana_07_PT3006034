@@ -1,25 +1,29 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="pt-br">
 
 <head>
 	<meta charset="UTF-8"/> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
   <link rel="icon" href="_imagens/favicon.ico" type="image/icon" />
-	<meta name="viewport" content="width=device-width">
 	<title> HOME - IFSP - Pirituba - DWBA4 </title>
 	<link href="_css/menu.css" rel="stylesheet" type="text/css" />
   <link href="_css/form.css" rel="stylesheet" type="text/css" />
-  <link href="signin.css" rel="stylesheet">
+
+  <!-- Bootstap 4.0 -->
+  <link href="_css/bootstrap.min.css" rel="stylesheet">
+  <link href="_css/signin.css" rel="stylesheet">
 </head>
 
+<!--  
 <body>
 <header id="cabecalho"> 
   <nav>
     <object width="100%" height="200px" data="menu.html"></object>    
   </nav>    
-  
 </header> 
 
-<!-- 
 
 <form method="POST" id="fEventos" action="mailto:beatriz.spaixaoo@gmail.com">   
         <h1> Entrar </h1>
@@ -29,35 +33,36 @@
     <p> <label for="cSenha"> Senha: </label><input type="password" name="tSenha" id="cSenha" size="10" maxlength="10" required name="tSenha" class="generalborder"/></p>
     <button type="submit" > Entrar </button> 
     <button type="submit" > Esqueci a senha </button>
-  
-</form>
-  
-  --->
+</form --->
 
 <body class="text-center">
-    <form class="form-signin" method="POST" id="fEventos" action="mailto:beatriz.spaixaoo@gmail.com">
-      <img class="mb-4" src="_imagens/ifsp.png" alt="" width="72" height="72">
-      <h1 class="h3 mb-3 font-weight-normal">Faça login</h1>
-      <label for="cUser" class="sr-only">Endereço de email</label>
-      <input type="email" name="tUser" id="cUser" class="form-control" placeholder="Seu email" required autofocus>
-      <label for="cSenha" class="sr-only">Senha</label>
-      <input type="password" name="tSenha" id="cSenha" class="form-control" placeholder="Senha" required>
-      <div class="checkbox mb-3">
-        <label>
+  <header id="cabecalho"> 
+    <nav>
+      <object width="100%" height="200px" data="menu.html"></object>   
+    </nav>    
+  </header> 
+
+  <form class="form-signin" method="POST" id="fEventos" action="mailto:beatriz.spaixaoo@gmail.com">
+        <img class="mb-4" src="/_imagens/ifsp.png" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Faça login</h1>
+        <label for="cUser" class="sr-only">Endereço de email</label>
+        <input type="email" name="tUser" id="cUser" class="form-control" placeholder="Seu email" required autofocus>
+        <label for="cSenha" class="sr-only">Senha</label>
+        <input type="password" name="tSenha" id="cSenha" class="form-control" placeholder="Senha" required>
+        <div class="checkbox mb-3">
+            <label>
           <input type="checkbox" value="remember-me"> Lembrar de mim
         </label>
-      </div>
-      <a href="#"> Esqueci a senha</a>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
-           <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
+        </div>
+        <a href="#" type="submit" > Esqueci a senha </a>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
     </form>
-  </body>
-
+</body>
 
 <footer>
 <br><br> 
-<object width="100%" height="200px" data="rodape.html"></object>
-
+<object id="rodape" width="100%" height="200px" data="rodape.html"></object>
 </footer>
 
 </body>
