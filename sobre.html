@@ -6,15 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="_imagens/favicon.ico" type="image/icon" />
 	<meta name="viewport" content="width=device-width">
-	<title> HOME - IFSP - Pirituba - DWBA4 </title>
+	<title> Sobre - IFSP - Pirituba </title>
 	<link href="_css/menu.css" rel="stylesheet" type="text/css" />
 
   <!-- Nota: ao fazer o deploy, substitua "development.js" por "". -->
-  <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js" crossorigin></script>
-  <!-- Adicione nosso componente React. -->
-  <script src="js/index.js"></script>
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <!-- Load Babel. -->
+  <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js" ></script>
+  
+
 
 </head>
 
@@ -26,13 +27,19 @@
     </nav>   
   </header> 
 
-<div id="root"></div>
+<div id="app1"></div>
+<div id="app2"></div>
+<div id="app3"></div>
+<div id="app4"></div>
+<div id="app5"></div>
+<div id="app6"></div>
+<div id="app7"></div>
 
 
 <footer>
 <br><br> 
 <object width="100%" height="200px" data="rodape.html"></object>
 </footer>
-
+<script type="text/babel" src="js/index.js"></script>
 </body>
 </html>
