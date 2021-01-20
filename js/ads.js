@@ -1,14 +1,21 @@
+
 class Ads extends React.Component {
 
   constructor() {
     super();
     this.state = {titulo: "Componentes curriculares"};
+    
   }
 
-  render() {   
+  render() {  
 
-    return <div align="center">
-        <strong><h2>{this.state.titulo}</h2></strong>
+    const hStyle = {
+      fontFamily: "Arial",
+      textAlign: "center"
+    };
+
+    return <div>
+        <strong><h2 style={hStyle}>{this.state.titulo}</h2></strong>
         <table id="tabela">
         <tr>
             <th>DISCIPLINA</th>

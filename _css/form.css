@@ -36,13 +36,24 @@ padding: 25px;
 }
 
 
-
 table#tabela {
+  font-family: Arial;
+  width: 100%;
+  height: 200px;
   box-align: center;
   text-align: center;
-  border: 1px solid #ccc;
+  border: 0.8px solid #ccc;
 }
 
 table#tabela th {
+  color: white;
   background-color: #4CAF50;
+}
+
+table#tabela td {
+  background-color: rgba(208, 219, 209, 0.315);
+}
+
+table#tabela td:hover {
+  background-color: rgba(183, 197, 184, 0.788);
 }
