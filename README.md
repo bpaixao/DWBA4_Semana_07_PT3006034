@@ -3,7 +3,7 @@
 Disciplina de desenvolvimento web com o Prof Fabio Teixeira no IFSP. Criação do site para o Câmpus, auxiliando no desenvolvimento de habilidades em Programação Web. 
 A contrução foi incremental: partindo do HTML e o CSS, com o JavaScript e até o uso de bibliotecas como Bootstrap e React. A maior parte do conteúdo trabalhado foi o Front-End. 
 
-Acesse o site completo no link: https://DWBA4Semana10PT3006034.bpaixao.repl.co 
+Acesse o site completo no link: https://dwba4semana10pt3006034.bpaixao.repl.co/
 
 Pagina Home: 
 ![home](https://user-images.githubusercontent.com/55667496/112333291-3b6fce00-8c99-11eb-8b71-e1301b75c7d9.jpg)
